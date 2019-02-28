@@ -10,7 +10,6 @@ img.choose = () => {
       sizeType: ['original'],
       sourceType: ['album', 'camera'],
       success: function(res) {
-        // console.log('path', res.tempFilePaths[0], res.tempFiles)
         const limit = 5 * 1024 * 1024
         // 限制图片大小
         if (res.tempFiles[0].size > limit) {
@@ -57,7 +56,6 @@ img.getInfo = (src) => {
 // 画图生成剪裁图片
 
 img.draw = (options) => {
-  console.log('draw...')
   return new Promise( (resolve, reject) => {
  
     const { imgInfo,width,height, coverWidth, coverHeight, startX, startY, canvasId, self} = options
