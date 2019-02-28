@@ -1,0 +1,30 @@
+
+<view class="page-contain">
+  <!-- 移动区域 -->
+  <view class="image-content" >
+
+    <movable-area 
+    class="img"
+    style="height: {{height}}px; width: {{width}}px; background-image: url({{src}}); background-size: {{width}}px {{height}}px ">
+  <!-- 剪裁框 -->
+    <movable-view
+      class="cut-cover"
+      direction="all"
+      damping="40"
+      friction="0.1"
+      style="width: {{widthRpx}}rpx; height: {{heightRpx}}rpx"
+      bindchange="move"
+      bindtouchend='moveEnd'
+      bindtouchstart='moveStart'
+    >
+    
+    </movable-view>
+    
+  </movable-area>
+  </view>
+  <canvas canvas-id="myCanvas" class="canvas-my" style="width: {{width * 2}}px; height: {{ height *2}}px;"></canvas>
+  <view class="footer">
+    <button  bindtap="chooseImage" class="choose-image">重新选择</button>
+    <button  bindtap="uploadImage" class="upload-image">确定</button>
+  </view>
+</view>

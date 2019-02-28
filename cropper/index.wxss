@@ -1,0 +1,103 @@
+/* src/pages/cutImage/index.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.img-cover {
+  width: 720rpx;
+  height: 320rpx;
+}
+.footer {
+  position: absolute;
+  height: 160rpx;
+  line-height: 160rpx;
+  background: #fff;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  z-index: 9999;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer button {
+  /* background: #000; */
+  font-size: 14px;
+  border-radius: 12rpx;
+  border: 0;
+  height: 84rpx;
+  line-height: 84rpx;
+  font-weight: blod;
+  width: 340rpx;
+  text-align: center;
+}
+.footer .choose-image {
+  background: #F9F8FB;
+  color: #62626B;
+  border: 2rpx solid #979797;
+}
+
+.footer .upload-image {
+  background: #62626B;
+  color: #FFFFFF;
+
+}
+.page-contain {
+  background: #000;
+  position: relative;
+}
+.image-content {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  bottom: 100rpx;
+}
+.image-content movable-area, .image-content image {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(90%);
+}
+.image-content movable-area {
+  z-index: 3
+}
+movable-view {
+  /* width: 720rpx; */
+  /* height: 320rpx; */
+  /* background: rgba(0,0,0,.3); */
+  position: absolute;
+  box-shadow: 0 0 0 1000px rgba(0,0,0,.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  border: 2rpx dashed #D8D8D8;
+}
+image {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 0;
+  padding: 0;
+}
+
+.canvas-my {
+  position: absolute;
+  left: -1000px;
+}

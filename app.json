@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "cropper/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图片剪裁",
+    "navigationBarTextStyle":"black"
+  }
+}
