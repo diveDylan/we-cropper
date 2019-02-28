@@ -1,5 +1,7 @@
 这是一个极简的小程序图片剪裁工具
-使用方法：copy tool 和 cropper文件夹
+使用方法：copy tool 和 cropper文件夹下的内容
+
+代码片段地址[https://developers.weixin.qq.com/s/ROawJwmr706s](https://developers.weixin.qq.com/s/ROawJwmr706s)
 
 采用movable-area + movable-view两个原生组件加上box-shadow实现
 
