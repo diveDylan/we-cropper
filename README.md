@@ -3,7 +3,7 @@
 
 采用movable-area + movable-view两个原生组件加上box-shadow实现
 
-![Image text]("https://horizon-mall-test.oss-cn-hzfinance.aliyuncs.com/lottery-mini-test/155133607648633437.png")
+![Image text](https://horizon-mall-test.oss-cn-hzfinance.aliyuncs.com/lottery-mini-test/155133658370951558.png)
 ```
 <movable-area 
     class="img"
@@ -24,3 +24,6 @@
     
   </movable-area>
 ```
+
+
+
