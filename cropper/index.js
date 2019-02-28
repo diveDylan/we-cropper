@@ -121,14 +121,12 @@ Page({
     // there we get x, y
   },
   moveEnd(e) {
-    console.log('end', e)
     this.setData({
       endX: e.changedTouches[0].pageX,
       endY: e.changedTouches[0].pageY
     })
   },
   moveStart(e) {
-    console.log('start', e)
     this.setData({
       startX: e.changedTouches[0].pageX,
       startY: e.changedTouches[0].pageY
@@ -175,7 +173,6 @@ Page({
   //更换图片
   chooseImage: async function () {
     const {src} = await img.choose();
-    console.log(src)
     this.setData({
       src: src,
     },() => {
