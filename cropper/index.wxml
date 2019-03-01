@@ -2,10 +2,11 @@
 <view class="page-contain">
   <!-- 移动区域 -->
   <view class="image-content" >
-
+    <!-- @important fixed ios background-image不支持临时图片路径 -->
+    <image src="{{src}}"  style="height: {{height}}px; width: {{width}}px;" wx:if="{{src}}"></image>
     <movable-area 
     class="img"
-    style="height: {{height}}px; width: {{width}}px; background-image: url({{src}}); background-size: {{width}}px {{height}}px ">
+    style="height: {{height}}px; width: {{width}}px;">
   <!-- 剪裁框 -->
     <movable-view
       class="cut-cover"
