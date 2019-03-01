@@ -5,7 +5,7 @@ copy tool 和 cropper文件夹下的内容
 [小程序官方架构不支持](https://developers.weixin.qq.com/community/develop/doc/000ca400300ff8169ea7bb4005b800)
 > background-iamge目前支持情况：android和模拟器都支持，ios不支持
 ### 线上预览
-> 代码片段地址[https://developers.weixin.qq.com/s/ROawJwmr706s](https://developers.weixin.qq.com/s/ROawJwmr706s)
+> 代码片段地址[https://developers.weixin.qq.com/s/ROawJwmr706s](https://developers.weixin.qq.com/s/ROawJwmr706s)  
 > 搜索小程序：链上抽奖，进入新建素材部分
 
 ### 实现思路
