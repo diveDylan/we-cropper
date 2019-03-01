@@ -1,6 +1,8 @@
 # 这是一个极简的小程序图片剪裁工具
-### 使用方法：copy tool 和 cropper文件夹下的内容
-### 关于background-image 支持本地临时图片的问题：[小程序官方架构不支持](https://developers.weixin.qq.com/community/develop/doc/000ca400300ff8169ea7bb4005b800)
+### 使用方法：
+copy tool 和 cropper文件夹下的内容
+### 关于background-image 支持本地临时图片的问题：
+[小程序官方架构不支持](https://developers.weixin.qq.com/community/develop/doc/000ca400300ff8169ea7bb4005b800)
 > background-iamge目前支持情况：android和模拟器都支持，ios不支持
 ### 线上预览
 > 代码片段地址[https://developers.weixin.qq.com/s/ROawJwmr706s](https://developers.weixin.qq.com/s/ROawJwmr706s)
